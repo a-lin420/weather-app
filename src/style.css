@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+}
+.location, .temperature {
+    padding: 25px;
+    text-align: center;
+}
